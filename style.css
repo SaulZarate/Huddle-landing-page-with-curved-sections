@@ -1,0 +1,204 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --pink-light: hsl(321, 100%, 78%);
+    --red-light: hsl(0, 100%, 63%);
+    --cyan-dark-very: hsl(192, 100%, 9%);
+    --blue-pale-very: hsl(207, 100%, 98%);
+
+    --font-title: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+.title-font{
+    font-family: var(--font-title);
+}
+.text-font-400{
+    font-family: var(--font-body);
+    font-weight: 400;
+}
+.text-font-600{
+    font-family: var(--font-body);
+    font-weight: 600;
+}
+.text-font-700{
+    font-family: var(--font-body);
+    font-weight: 700;
+}
+body,
+header,
+main,
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: var(--font-body);
+    color: var(--cyan-dark-very);
+}
+.content__imgCurved ,
+.content__imgCurved img
+{
+    width: 100%;
+}
+.image-bg{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-section-top-1{
+    background-image: url("./images/bg-section-top-desktop-1.svg");
+    height: 165px;
+}
+.img-section-bottom-1{
+    background-image: url("./images/bg-section-bottom-desktop-1.svg");
+    height: 139px;
+}
+.img-section-top-2{
+    background-image: url("./images/bg-section-top-desktop-2.svg");
+    height: 156px;
+}
+.img-section-bottom-2{
+    background-image: url("./images/bg-section-bottom-desktop-2.svg");
+    height: 139px;
+}
+/* --------------------------------------------------------------------------- */
+/* -------------------------------- SITIO WEB -------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__content{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+.header__content-button button{
+    padding: 0.5em 1.8em ;
+    border-radius: 1.8em;
+    border: .14em solid var(--pink-light);
+    color: var(--pink-light);
+}
+
+/* ------------------------ FIRST SECTION ------------------------ */
+.firstSection{
+    max-width: 80%;
+    padding-top: 5em;
+    margin: auto;
+}
+.firstSection > article{
+    padding: 3em 0;
+}
+
+/* 
+    Article Buil Comunity
+*/
+.articleBuilComunity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.articleBuilComunity > div{
+    text-align: center;
+}
+.articleBuilComunity__content-title{
+    font-family: var(--font-title);
+    font-size: 1.9em;
+}
+.articleBuilComunity__content-text{
+    display: flex;
+    justify-content: center;
+}
+.articleBuilComunity__content-text p{
+    width: 45%;
+    margin-top: 1.3em;
+    margin-bottom: 1.5em;
+}
+.articleBuilComunity__content-button button{
+    padding: 1.3em 5em;
+    border-radius: 2.5em;
+    color: var(--blue-pale-very);
+    background-color: var(--pink);
+    border: none;
+    box-shadow: 3px 3px 10px var(--pink-light);
+}
+
+/* 
+    Article Image
+*/
+.articleContentImage{
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+.articleContentImage img{
+    width: 90%;
+}
+
+/* 
+    Article Numbers
+*/
+.articleNumbers > div > div > img{
+    height: 1.5em;
+}
+.articleNumbers h3{
+    font-size: 3.5em;
+}
+.articleNumbers{
+    display: flex;
+    justify-content: space-around;
+}
+.articleNumbers__text{
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------ SECOND SECTION ------------------------ */
+.secondSection{
+    background-color: var(--blue-pale-very);
+    display: flex;
+    justify-content: center;
+}
+.secondSection > article{
+    background-color: var(--blue-pale-very);
+    width: 80%;
+}
+
+/* 
+    Article Grow Together
+*/
+.articleGrowTogether{
+    display: flex;
+    justify-content: space-around;
+}
+.articleGrowTogether__content-text{
+    background-color: var(--blue-pale-very);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.articleGrowTogether__content-text h3,
+.articleGrowTogether__content-text p{
+    background-color: var(--blue-pale-very);
+}
+.articleGrowTogether__content-text h3{
+    font-weight: 700;
+    font-size: 2.3em;
+    margin-bottom: .5em;
+}
+.articleGrowTogether__content-text p{
+    width: 85%;
+    font-weight: 400;
+}
+.articleGrowTogether__content-img,
+.articleGrowTogether__content-img img{
+    background-color: var(--blue-pale-very);
+    width: 100%;
+}
