@@ -1,115 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./style.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
-  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <body>
+</head>
 
-    <!-- HEADER -->
-    <header class="header">
-      <div class="header__content">
-        <div class="header__content-img">
-          <img src="./images/logo.svg" alt="Logo">
-        </div>
-        <div class="header__content-button">
-          <button>Try it Free</button>
-        </div>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__content">
+      <div class="header__content-img">
+        <img src="./images/logo.svg" alt="Logo">
       </div>
-    </header>
+      <div class="header__content-button">
+        <button>Try it Free</button>
+      </div>
+    </div>
+  </header>
 
+  <main>
+    <!-- FIRST SECTION & FIRST IMAGE -->
+    <section class="firstSection">
+      <!-- Article Buil Commnunity -->
+      <article class="articleBuilComunity">
+        <div class="articleBuilComunity__content-title">
+          <h2>Build The Community Your Fans Will Love</h2>
+        </div>
 
-    <main>
-      
-      <section class="firstSection">
-        <!-- Article Buil Commnunity -->
-        <article class="articleBuilComunity">
-          <div class="articleBuilComunity__content-title">
-            <h2>Build The Community Your Fans Will Love</h2>
+        <div class="articleBuilComunity__content-text">
+          <p class="text-font-400">Huddle re-imagines the way we build communities. You have a voice, but so does your
+            audience. Create connections with your users as you engage in genuine discussion.</p>
+        </div>
+
+        <div class="articleBuilComunity__content-button">
+          <button class="text-font-600">Get Started For Free</button>
+        </div>
+      </article>
+
+      <!-- Article Image -->
+      <article class="articleContentImage">
+        <img src="./images/screen-mockups.svg" alt="layout">
+      </article>
+
+      <!-- Article Numbers -->
+      <article class="articleNumbers">
+        <div class="articleNumbers__communitiesFormed">
+          <div class="articleNumbers__communitiesFormed-content-image">
+            <img src="./images/icon-communities.svg" alt="Icon Tre persons">
           </div>
+          <h3 class="text-font-700">1.4k+</h3>
+          <p class="articleNumbers__text">Communities Formed</p>
+        </div>
 
-          <div class="articleBuilComunity__content-text">
-            <p class="text-font-400">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <div class="articleNumbers__messagesSent">
+          <div class="articleNumbers__communitiesFormed-content-image">
+            <img src="./images/icon-messages.svg" alt="Icon message">
           </div>
-          
-          <div class="articleBuilComunity__content-button">
-            <button class="text-font-600">Get Started For Free</button>
-          </div>
-        </article>
+          <h3 class="text-font-700">2.7m+</h3>
+          <p class="articleNumbers__text">Messages Sent</p>
+        </div>
+      </article>
+    </section>
 
-        <!-- Article Image -->
-        <article class="articleContentImage">
-          <img src="./images/screen-mockups.svg" alt="layout">
-        </article>
+    <!-- SEPARATOR IMG 1 -->
+    <div class="image-bg img-section-top-1"></div>
 
-        <!-- Article Numbers -->
-        <article class="articleNumbers">
-          <div class="articleNumbers__communitiesFormed">
-            <div class="articleNumbers__communitiesFormed-content-image">
-              <img src="./images/icon-communities.svg" alt="Icon Tre persons">
-            </div>
-            <h3 class="text-font-700">1.4k+</h3>
-            <p class="articleNumbers__text">Communities Formed</p>
-          </div>
+    <!-- SECTION GROW TOGETHER -->
+    <section class="secondSection">
+      <article class="articleGrowTogether">
+        <div class="articleGrowTogether__content-text">
+          <h3 class="secondSection__title">Grow Together</h3>
+          <p class="secondSection__text">Generate meaningful discussions with your audience and build a strong, loyal
+            community.
+            Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
 
-          <div class="articleNumbers__messagesSent">
-            <div class="articleNumbers__communitiesFormed-content-image">
-              <img src="./images/icon-messages.svg" alt="Icon message">
-            </div>
-            <h3 class="text-font-700">2.7m+</h3>
-            <p class="articleNumbers__text">Messages Sent</p>
-          </div>
-        </article>
+        <div class="articleGrowTogether__content-img">
+          <img src="./images/illustration-grow-together.svg" alt="Grow Together">
+        </div>
+      </article>
+    </section>
+
+    <!-- SEPARATOR IMG 2 -->
+    <div class="image-bg img-section-bottom-1"></div>
+
+    <!-- SECTION FLOWING CONVERSATIONS -->
+    <section class="thirdSection">
+      <article class="articleFlowingConversations">
+        <div class="articleFlowingConversations__content-img">
+          <img src="./images/illustration-flowing-conversation.svg" alt="Grow Together">
+        </div>
+
+        <div class="articleFlowingConversations__content-text">
+          <h3 class="thirdSection__title">Flowing Conversations</h3>
+          <p class="thirdSection__text">You wouldn't paginate a conversation in real life, so why do it online? Our
+            threads have just-in-time loading for a more natural flow.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SEPARATOR IMG 3 -->
+    <div class="image-bg img-section-top-2"></div>
+
+    <!-- SECTION YOUR USERS -->
+    <section class="quarterSection">
+      <article class="articleYourUsers">
+        <div class="articleYourUsers__content-text">
+          <h3 class="quarterSection__title">Your Users</h3>
+          <p class="quarterSection__text">It takes no time at all to integrate Huddle with your app's authentication
+            solution. This means,
+            once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+
+        <div class="articleYourUsers__content-img">
+          <img src="./images/illustration-your-users.svg" alt="Grow Together">
+        </div>
+      </article>
+    </section>
+
+    <!-- SEPARATOR IMG 4 -->
+    <div class="image-bg img-section-bottom-2"></div>
+
+    <!-- SECTION COMMUNITY -->
+    <section class="comunitySection">
+      <article class="articleCommunity">
+        <h3>Ready To Build Community?</h3>
+        <div class="comunitySection__content-button">
+          <button class="text-font-600">Get Started For Free</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- SEPARATOR IMG 4 -->
+  <div class="image-bg img-footer-top"></div>
+
+  <footer>
+    <div class="columnLeft">
+      <div class="columnLeft__content-img">
+        <img src="./images/logo.svg" alt="Logo" class="logo-footer">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+        vestibulum a, ultrices quis sem.</p>
+      <p>Phone</p>
+      <p>Gmail</p>
+
+      <section class="sectionSocialNetwork">
+        <div class="content-img1">
+
+        </div>
+        <div class="content-img2">
+
+        </div>
+        <div class="content-img3">
+
+        </div>
       </section>
+    </div>
 
-      <!-- Background imga 1 -->
-      <div class="image-bg img-section-top-1"></div>
-      
-      <section class="secondSection">
-        <article class="articleGrowTogether">
-          <div class="articleGrowTogether__content-text">
-            <h3 class="secondSection__title">Grow Together</h3>
-            <p class="secondSection__text">Generate meaningful discussions with your audience and build a strong, loyal community.
-              Think of the insightful conversations you miss out on with a feedback form.</p>
-          </div>
+    <div class="columnRight">
+      b
+    </div>
+  </footer>
 
-          <div class="articleGrowTogether__content-img">
-            <img src="./images/illustration-grow-together.svg" alt="Grow Together">
-          </div>
-        </article>
-      </section>
+</body>
 
-      <!-- Background imga 2 -->
-      <div class="image-bg img-section-bottom-1"></div>
-      
-      <!-- Background imga 3 -->
-      <div class="image-bg img-section-top-2"></div>
-      
-      <!-- Background imga 4 -->
-      <div class="image-bg img-section-bottom-2"></div>   
-
-    </main>
-
-
-    <footer>
-
-    </footer>
-  </body>
 </html>
